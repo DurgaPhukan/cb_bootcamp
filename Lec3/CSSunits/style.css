@@ -1,0 +1,38 @@
+#wrapper{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 30px auto;
+}
+
+div{
+    width: 60%;
+    height: 40%;
+    border: 2px solid green;
+}
+
+article:first-of-type ul{
+    font-size: 30%;
+}
+
+article:first-of-type{
+    font-size: 100px;
+}
+/* % means percentage of the parent or recent one */
+/* em used for snow balling effect     1 em :1 times of the parent    2em:2times of he parent  */
+/* 2rem:2times of the root element */
+article:nth-of-type(2){
+    font-size: 20px;
+}
+
+ul{
+    font-size: 2rem;
+}
+
+#container{
+    border: 2px black;
+    background-color: coral;
+    width: 70vw;
+    height: 80vh;
+}
+/* 70 vw:70 % of total view of width //y 80vh:80% of total viewed height*/

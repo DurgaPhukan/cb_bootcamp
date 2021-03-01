@@ -1,0 +1,38 @@
+/* 5 type of selectors 1.Elements selector like h1, p1   2.Universal  3. ID selector    4.Class selector  5.Attribute selector*/
+/* This is element selector */
+h1{
+    color: blueviolet;
+    border: 2px solid green;
+    background-color: hotpink;
+}
+
+/* Universal selects all the content together */
+
+*{
+    border: 1px solid crimson;
+}
+
+
+/* ID selector selects special objects like not all the h1 but only one of them */
+/* id should be unique and two items shouldnt share same id */
+#spll{
+    background-color: darkgreen;
+    text-transform: capitalize;
+}
+
+/* Class selector: class is used to select elements of interest and two and more elements can share class name  */
+.abc{
+    background-color: gold;
+}
+
+/* Attribute Selector:uses names to differentiate operators */
+
+a[href="http://google.com"]
+{
+    color: red;
+}
+
+input[type="text"]
+{
+    background-color: seagreen;
+}

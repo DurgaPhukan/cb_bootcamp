@@ -1,0 +1,29 @@
+/* Decendent combinator*/
+ul li a{
+    color: seagreen;
+}
+
+article p em strong
+{
+    background-color: cornflowerblue;
+    color: crimson;
+}
+
+/* Child combinator */
+ul li
+{
+    border-top: 2px solid blue;
+}
+/* Adjacent selector */
+h4+p{
+    color: coral;
+    border: 2px solid burlywood;
+    background-color: cadetblue;
+}
+
+/* General sibling */
+h3~p
+{
+    color: chocolate;
+    text-decoration: overline;
+}

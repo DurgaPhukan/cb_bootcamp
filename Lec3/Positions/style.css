@@ -1,0 +1,53 @@
+div{
+    border: 2px solid black;
+    background-color: cyan;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+#static #middle{
+    position: static;
+    top: 100px;
+    left: 200px;
+    /* When position is static offsets dont work eg top left etc */
+
+}
+/* offsets used to give positions */
+
+/* positions 5 types
+1.static:offsets dont work
+2.relative:offsets works relative to the initial position
+3.absolute:normal flow is interupted so other elements takes its place and when it is positioned it overlaps
+4.Fixed:position is fixed relative to initial containing block which is the body
+5.sticky:is behaves normal until it reachehs the limit and then it works as absolute that means remains at position during scrolling */
+
+#relative #middle{
+    position: relative;
+    top: 20px;
+    left: 50px;
+
+}
+
+/* positioning the section */
+/* this absolute selects the position of the section so that the middle element dont get positioned relative to the body */
+
+#absolute{
+    position: relative;
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 10px;
+    /*it checks its anchestor which was recently positioned here it was body so it will move to top of body and come 10 pixel below  */
+    left: 20px;
+}
+
+#fixed #middle{
+    position: fixed;
+    top: 10px;
+}
+
+#sticky #middlle{
+    position: sticky;
+    top: 30px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Learning about Inputs</h1>
+    
+    <label for="username">Username</label>
+    <input type="text" placeholder="Username" id="username">
+    <!-- id is used for binding -->
+    <br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="Enter email" id="email">
+    <br>
+    Date:
+    <input type="date">
+    <br>
+    Time:
+    <input type="time">
+    <br>
+    Colour:
+    <input type="color">
+    File:
+    <input type="file">
+    <br>
+    <br>
+    <label for="tel">Telephone number</label>
+    <input type="tel" maxlength="10" placeholder="eg:1234" id="tel">
+    Number:
+    <input type="number">
+    <br>
+    Gender:
+    <label for="male">Male</label>    
+    <!-- label used for connectiong the text with the buttons so that option is selected -->
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female</label>  
+    <input type="radio" name="gender" id="female">
+    <label for="others">Others</label>  
+    <input type="radio" name="gender" id="others">
+    <!-- name="gender is used for all three because we can select one at a time" -->
+    <br>
+    <br>
+    i agree:
+    <input type="checkbox">
+    <br>
+    <br>
+    Month:
+    <select name="" id="">
+        <option value="">Month</option>
+        <option value="">Jan</option>
+        <option value="">Feb</option>
+        <option value="">Mar</option>
+        <option value="">Apr</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">Aug</option>
+        <option value="">Sep</option>
+        <option value="">Oct</option>
+        <option value="">Nov</option>
+        <option value="">Dec</option>
+    </select>
+
+    <br>
+    <br>
+    Textarea:
+    <br>
+    <textarea cols="60" rows="5">Default Text</textarea>
+
+    <input type="submit" disabled>
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* inline display */
+h1{
+    border: 2px solid black;
+    background-color: cyan;
+    display: inline;
+    /* in case inline display width and height dont work only margin and padding works */
+    width: 500px;
+    height: 200px;
+    margin: 30px;
+    padding: 40px;
+}
+
+/* Block display */
+span{
+    border: 2px solid black;
+    background-color: palevioletred;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    padding: 50px;
+    /* in case of block display width height margin and padding all are respected */
+
+}
+/* 4 dispaly properties:1.inline 2.block 3.inline-block 4.none */
+
+/* Inline-block display */
+
+div{
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+div:nth-of-type(2){
+    /* display none will work as the element is not even present */
+    display: none;
+    /* visibility hidden acts as it is present but not visible only */
+    visibility: hidden;
+    
+}

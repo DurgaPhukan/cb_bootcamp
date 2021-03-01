@@ -1,0 +1,39 @@
+p{
+    /* Dimension-weidth or height */
+
+    width: 300px;
+
+
+    /* Border */
+
+    border: 2px solid green;
+
+
+
+    /* Margin:used maintaindistance between two objects */
+
+    /* margin: 30px; */
+    /* margin-top: 60px; */
+    /* margin-right: 30px; */
+    /* margin-bottom: 20px; */
+    /* margin-left: 40px; */
+
+    /* margin: 60px auto; */
+    /* order is Top right bottom left */
+    margin: 60px 30px 20px 40px;
+
+    /* For 2 values first is apllied ontop and bottom and the second is applied of left and right */
+    /* For 3 values:1.top 2.horizontal 3. bottom */
+
+
+
+    /* Padding */
+
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+
+
+}
