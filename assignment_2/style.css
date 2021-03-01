@@ -1,0 +1,27 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(172, 193, 194);
+    color: rgb(243, 132, 6);
+    border: 2px solid black;
+    position: sticky;
+    top: 0px;
+}
+div{
+    font-size: 30px;
+    align-items: center;
+    background-color: rgb(216, 183, 183);
+    color: rgb(19, 6, 122);
+    border: 1px solid black;
+    position: sticky;
+    top: 50px;
+}
+ul{
+    font-size: 20px;
+}
+fieldset{
+    background-color: lightgreen;
+}
+li::before{
+    content:'\2706' ;
+}
